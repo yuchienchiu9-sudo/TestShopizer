@@ -1,0 +1,22 @@
+name: Yu-Chien Shopping Cart CI
+
+on:
+  push:
+    branches: [ "master", "main", "3.2.7" ]
+  pull_request:
+    branches: [ "master", "main", "3.2.7" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Run My Shopping Cart Tests
+        run: ./mvnw -B -pl sm-core -am -Dtest=MyCartCoverageTest -DfailIfNoTests=false test

@@ -1,0 +1,45 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.fusesource.hawtjni.runtime.Library in an unnamed module (file:/Users/yijunsun/.m2/wrapper/dists/apache-maven-3.5.2-bin/7hf0mht29afbpa1e4v2d1a16p0/apache-maven-3.5.2/lib/jansi-1.16.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/yijunsun/.m2/wrapper/dists/apache-maven-3.5.2-bin/7hf0mht29afbpa1e4v2d1a16p0/apache-maven-3.5.2/lib/guava-20.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[60,28] cannot find symbol
+  symbol:   method setActive(boolean)
+  location: variable electronics of type com.salesmanager.core.model.catalog.category.Category
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[73,24] cannot find symbol
+  symbol:   method setCode(java.lang.String)
+  location: variable product of type com.salesmanager.core.model.catalog.product.Product
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[75,24] cannot find symbol
+  symbol:   method setActive(boolean)
+  location: variable product of type com.salesmanager.core.model.catalog.product.Product
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[94,50] cannot find symbol
+  symbol:   variable DEFAULT_PRICE_TYPE
+  location: class com.salesmanager.core.model.catalog.product.price.ProductPrice
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m on project [36msm-core[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[60,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setActive(boolean)
+[[1;31mERROR[m]   location: variable electronics of type com.salesmanager.core.model.catalog.category.Category
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[73,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setCode(java.lang.String)
+[[1;31mERROR[m]   location: variable product of type com.salesmanager.core.model.catalog.product.Product
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[75,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setActive(boolean)
+[[1;31mERROR[m]   location: variable product of type com.salesmanager.core.model.catalog.product.Product
+[[1;31mERROR[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/catalog/ProductPricePartitionTest.java:[94,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable DEFAULT_PRICE_TYPE
+[[1;31mERROR[m]   location: class com.salesmanager.core.model.catalog.product.price.ProductPrice
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <goals> -rf :sm-core[m

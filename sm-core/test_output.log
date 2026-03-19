@@ -1,0 +1,638 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.fusesource.hawtjni.runtime.Library in an unnamed module (file:/Users/yijunsun/.m2/wrapper/dists/apache-maven-3.5.2-bin/7hf0mht29afbpa1e4v2d1a16p0/apache-maven-3.5.2/lib/jansi-1.16.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/yijunsun/.m2/wrapper/dists/apache-maven-3.5.2-bin/7hf0mht29afbpa1e4v2d1a16p0/apache-maven-3.5.2/lib/guava-20.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding sm-core 3.2.5[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36msm-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 52 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msm-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36msm-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 10 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msm-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 26 source files to /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/target/test-classes
+[[1;34mINFO[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/shipping/ShippingQuoteByWeightTest.java: /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/shipping/ShippingQuoteByWeightTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/src/test/java/com/salesmanager/test/shipping/ShippingQuoteByWeightTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36msm-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+20:50:58.168 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.170 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:50:58.173 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:50:58.187 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:50:58.192 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest], using SpringBootContextLoader
+20:50:58.192 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: class path resource [com/salesmanager/test/catalog/ProductLifecycleStateMachineTest-context.xml] does not exist
+20:50:58.193 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: class path resource [com/salesmanager/test/catalog/ProductLifecycleStateMachineTestContext.groovy] does not exist
+20:50:58.193 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:50:58.208 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.251 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: using defaults.
+20:50:58.252 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:50:58.257 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+20:50:58.260 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a72a540, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@27d5a580, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@198d6542, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e403b4a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5117dd67, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5be49b60, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2931522b, org.springframework.test.context.event.EventPublishingTestExecutionListener@7674b62c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@19e7a160, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@662706a7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45a4b042, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16b2bb0c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@327af41b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6cb6decd]
+20:50:58.261 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.261 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.261 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.261 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.262 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.262 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.274 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.275 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:50:58.275 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:50:58.275 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:50:58.275 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest], using SpringBootContextLoader
+20:50:58.275 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: class path resource [com/salesmanager/test/catalog/ProductLifecycleStateMachineTest-context.xml] does not exist
+20:50:58.275 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: class path resource [com/salesmanager/test/catalog/ProductLifecycleStateMachineTestContext.groovy] does not exist
+20:50:58.275 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:50:58.276 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]: using defaults.
+20:50:58.277 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:50:58.277 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+20:50:58.277 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e48362c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1efe439d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@be68757, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d446ed1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12d2ce03, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7e5c856f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@413f69cc, org.springframework.test.context.event.EventPublishingTestExecutionListener@1f53a5dc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1b75c2e3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1984b1f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3bd323e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39ac0c0a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c7ba306, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4ff8d125]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.277 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.294 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.294 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+[[1;34mINFO[m] Running com.salesmanager.test.catalog.[1mProductLifecycleStateMachineTest[m
+20:50:58.295 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.295 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.295 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.295 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.299 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@149dd36b testClass = ProductLifecycleStateMachineTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@38831718 testClass = ProductLifecycleStateMachineTest, locations = '{}', classes = '{class com.salesmanager.test.configuration.ConfigurationTest}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@28975c28, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@157853da, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6f27a732, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4ef37659, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1f97cf0d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@43bc63a3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+20:50:58.300 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.300 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.salesmanager.test.catalog.ProductLifecycleStateMachineTest]
+20:50:58.302 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@149dd36b testClass = ProductLifecycleStateMachineTest, testInstance = com.salesmanager.test.catalog.ProductLifecycleStateMachineTest@5674e1f2, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@38831718 testClass = ProductLifecycleStateMachineTest, locations = '{}', classes = '{class com.salesmanager.test.configuration.ConfigurationTest}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@28975c28, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@157853da, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6f27a732, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4ef37659, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1f97cf0d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@43bc63a3], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2026-02-09 20:50:58.410  WARN 48533 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/yijunsun/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/yijunsun/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-02-09 20:50:58.676  INFO 48533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-09 20:50:58.739  INFO 48533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 72 JPA repository interfaces.
+2026-02-09 20:50:58.766  INFO 48533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-09 20:50:58.784  INFO 48533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 72 JPA repository interfaces.
+2026-02-09 20:50:59.222  WARN 48533 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2026-02-09 20:50:59.222  INFO 48533 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-09 20:50:59.283  INFO 48533 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-09 20:50:59.465  WARN 48533 --- [           main] n.s.ehcache.config.ConfigurationFactory  : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/yijunsun/.m2/repository/net/sf/ehcache/ehcache/2.10.9.2/ehcache-2.10.9.2.jar!/ehcache-failsafe.xml
+2026-02-09 20:50:59.871  INFO 48533 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-09 20:50:59.899  INFO 48533 --- [           main] c.s.m.s.c.a.CanadaPostAutoConfiguration  : instantiate [CanadaPostQuoteModule]
+2026-02-09 20:50:59.900  INFO 48533 --- [           main] c.s.m.s.c.a.CanadaPostAutoConfiguration  : autoconfigure [com.shopizer.modules.shipping.canadapost.autoconfigure.CanadaPostAutoConfiguration$$EnhancerBySpringCGLIB$$7bc94c18]
+2026-02-09 20:51:00.543  INFO 48533 --- [           main] o.i.factories.GlobalComponentRegistry    : ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.18.Final
+2026-02-09 20:51:00.657 ERROR 48533 --- [           main] c.s.c.b.m.cms.impl.VendorCacheManager    : Cannot start manager org.infinispan.manager.EmbeddedCacheManagerStartupException: org.infinispan.commons.CacheException: Unable to invoke method public void org.infinispan.globalstate.impl.GlobalConfigurationManagerImpl.start() on object of type GlobalConfigurationManagerImpl
+2026-02-09 20:51:00.661 ERROR 48533 --- [           main] c.s.c.b.m.cms.impl.CacheManagerImpl      : Error while instantiating CmsImageFileManager
+
+java.lang.NullPointerException: Cannot invoke "org.infinispan.manager.EmbeddedCacheManager.defineConfiguration(String, org.infinispan.configuration.cache.Configuration)" because the return value of "com.salesmanager.core.business.modules.cms.impl.VendorCacheManager.getManager()" is null
+	at com.salesmanager.core.business.modules.cms.impl.CacheManagerImpl.init(CacheManagerImpl.java:62) ~[classes/:na]
+	at com.salesmanager.core.business.modules.cms.impl.StoreCacheManagerImpl.<init>(StoreCacheManagerImpl.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:448) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+2026-02-09 20:51:00.820 ERROR 48533 --- [           main] c.s.c.b.m.cms.impl.CacheManagerImpl      : Error while instantiating CmsImageFileManager
+
+java.lang.NullPointerException: Cannot invoke "org.infinispan.manager.EmbeddedCacheManager.defineConfiguration(String, org.infinispan.configuration.cache.Configuration)" because the return value of "com.salesmanager.core.business.modules.cms.impl.VendorCacheManager.getManager()" is null
+	at com.salesmanager.core.business.modules.cms.impl.CacheManagerImpl.init(CacheManagerImpl.java:62) ~[classes/:na]
+	at com.salesmanager.core.business.modules.cms.impl.DownloadCacheManagerImpl.<init>(DownloadCacheManagerImpl.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:448) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+2026-02-09 20:51:00.968 ERROR 48533 --- [           main] c.s.c.b.m.cms.impl.CacheManagerImpl      : Error while instantiating CmsImageFileManager
+
+java.lang.NullPointerException: Cannot invoke "org.infinispan.manager.EmbeddedCacheManager.defineConfiguration(String, org.infinispan.configuration.cache.Configuration)" because the return value of "com.salesmanager.core.business.modules.cms.impl.VendorCacheManager.getManager()" is null
+	at com.salesmanager.core.business.modules.cms.impl.CacheManagerImpl.init(CacheManagerImpl.java:62) ~[classes/:na]
+	at com.salesmanager.core.business.modules.cms.impl.StaticContentCacheManagerImpl.<init>(StaticContentCacheManagerImpl.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:448) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.5.12.jar:2.5.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.12.jar:2.5.12]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.18.jar:5.3.18]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73) ~[junit-vintage-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+
+=== Test 3: DRAFT without Category (Guard Violation) ===
+
+=== Test 6: PENDING → ACTIVE (Approval) ===
+
+=== Test 7: PENDING → DRAFT (Rejection) ===
+
+=== Test 8: ACTIVE State Verification ===
+
+=== Test 10: ACTIVE → MODIFIED with Invalid Price ===
+⚠ Warning: System allowed negative price (potential bug)
+
+=== Test 12: INACTIVE State Verification ===
+
+=== Test 13: INACTIVE → ACTIVE (Reactivate) ===
+
+=== Test 15: DRAFT → ARCHIVED (Discard) ===
+
+=== Test 17: Guard Condition - Non-Negative Price ===
+⚠ Warning: Negative price accepted (bug detected)
+
+=== Test 11: ACTIVE → INACTIVE (Deactivate) ===
+
+=== Test 18: Guard Condition - Inventory Required ===
+
+=== Test 9: ACTIVE → MODIFIED (Price Update) ===
+
+=== Test 4: DRAFT → PENDING (Valid) ===
+
+=== Test 5: DRAFT → PENDING with Null Price (Should Fail) ===
+⚠ Warning: System allowed product without price (potential bug)
+
+=== Test 2: DRAFT with Invalid Price (Guard Violation) ===
+
+=== Test 16: MODIFIED State Verification ===
+
+=== Test 19: Guard Condition - Category Required ===
+⚠ Warning: Product without category accepted (potential bug)
+
+=== Test 14: INACTIVE → ARCHIVED (Archive) ===
+
+=== Test 20: Complete Product Lifecycle ===
+  1. Created: DRAFT
+  2. Submitted: PENDING
+  3. Approved: ACTIVE
+  4. Updated: MODIFIED
+  5. Deactivated: INACTIVE
+  6. Archived: ARCHIVED
+
+=== Test 1: DRAFT State Creation ===
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m20[m, Failures: 0, [1;31mErrors: [0;1;31m15[m, Skipped: 0, Time elapsed: 5.09 s[1;31m <<< FAILURE![m - in com.salesmanager.test.catalog.[1mProductLifecycleStateMachineTest[m
+[[1;31mERROR[m] testState1_DraftWithoutCategory  Time elapsed: 1.716 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.lang.Exception> but was<java.lang.AssertionError>
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState1_DraftWithoutCategory(ProductLifecycleStateMachineTest.java:175)
+
+[[1;31mERROR[m] testTransition2_PendingToActive  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#2] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition2_PendingToActive(ProductLifecycleStateMachineTest.java:249)
+
+[[1;31mERROR[m] testTransition3_PendingToDraft  Time elapsed: 0.006 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#3] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition3_PendingToDraft(ProductLifecycleStateMachineTest.java:276)
+
+[[1;31mERROR[m] testState2_ProductInActiveState  Time elapsed: 0.004 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#4] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState2_ProductInActiveState(ProductLifecycleStateMachineTest.java:298)
+
+[[1;31mERROR[m] testState3_ProductInInactiveState  Time elapsed: 0.004 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#6] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState3_ProductInInactiveState(ProductLifecycleStateMachineTest.java:403)
+
+[[1;31mERROR[m] testTransition6_InactiveToActive  Time elapsed: 0.005 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#7] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition6_InactiveToActive(ProductLifecycleStateMachineTest.java:429)
+
+[[1;31mERROR[m] testTransition5_ActiveToInactive  Time elapsed: 0.007 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#10] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition5_ActiveToInactive(ProductLifecycleStateMachineTest.java:382)
+
+[[1;31mERROR[m] testGuard_ProductMustHaveInventory  Time elapsed: 0.004 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#11] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testGuard_ProductMustHaveInventory(ProductLifecycleStateMachineTest.java:554)
+
+[[1;31mERROR[m] testTransition4_ActiveToModified  Time elapsed: 0.006 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#12] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition4_ActiveToModified(ProductLifecycleStateMachineTest.java:328)
+
+[[1;31mERROR[m] testTransition1_DraftToPendingValid  Time elapsed: 0.005 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#13] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition1_DraftToPendingValid(ProductLifecycleStateMachineTest.java:199)
+
+[[1;31mERROR[m] testState1_DraftWithInvalidPrice  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.lang.Exception> but was<java.lang.AssertionError>
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState1_DraftWithInvalidPrice(ProductLifecycleStateMachineTest.java:161)
+
+[[1;31mERROR[m] testState4_ProductInModifiedState  Time elapsed: 0.005 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#16] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState4_ProductInModifiedState(ProductLifecycleStateMachineTest.java:517)
+
+[[1;31mERROR[m] testTransition7_InactiveToArchived  Time elapsed: 0.005 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#18] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testTransition7_InactiveToArchived(ProductLifecycleStateMachineTest.java:460)
+
+[[1;31mERROR[m] testCompleteLifecycle  Time elapsed: 0.012 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#19] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testCompleteLifecycle(ProductLifecycleStateMachineTest.java:621)
+
+[[1;31mERROR[m] testState1_ProductInDraftState  Time elapsed: 0.004 s  <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.salesmanager.core.model.catalog.product.Product#20] - no Session
+	at com.salesmanager.test.catalog.ProductLifecycleStateMachineTest.testState1_ProductInDraftState(ProductLifecycleStateMachineTest.java:145)
+
+2026-02-09 20:51:03.409  INFO 48533 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-09 20:51:03.412  INFO 48533 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-09 20:51:03.412  INFO 48533 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testCompleteLifecycle:621 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testGuard_ProductMustHaveInventory:554 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState1_DraftWithInvalidPrice »  Unexpecte...[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState1_DraftWithoutCategory »  Unexpected...[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState1_ProductInDraftState:145 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState2_ProductInActiveState:298 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState3_ProductInInactiveState:403 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testState4_ProductInModifiedState:517 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition1_DraftToPendingValid:199 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition2_PendingToActive:249 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition3_PendingToDraft:276 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition4_ActiveToModified:328 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition5_ActiveToInactive:382 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition6_InactiveToActive:429 » LazyInitialization[m
+[[1;31mERROR[m] [1;31m  ProductLifecycleStateMachineTest.testTransition7_InactiveToArchived:460 » LazyInitialization[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 20, Failures: 0, Errors: 15, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 7.759 s
+[[1;34mINFO[m] Finished at: 2026-02-09T20:51:03-08:00
+[[1;34mINFO[m] Final Memory: 81M/268M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.2:test[m [1m(default-test)[m on project [36msm-core[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /Users/yijunsun/Documents/Git/shopizerForTest/sm-core/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

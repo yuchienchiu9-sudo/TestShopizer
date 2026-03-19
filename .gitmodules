@@ -1,0 +1,6 @@
+[submodule "shopizer-admin"]
+	path = shopizer-admin
+	url = https://github.com/shopizer-ecommerce/shopizer-admin.git
+[submodule "shopizer-shop-reactjs"]
+	path = shopizer-shop-reactjs
+	url = https://github.com/shopizer-ecommerce/shopizer-shop-reactjs.git
